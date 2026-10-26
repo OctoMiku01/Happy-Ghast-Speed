@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "happy_ghast_speed",
+	"version": "${version}",
+	"name": "Happy Ghast Speed",
+	"description": "Happy Ghasts fly faster while a player rides them and drift slower when nobody does.",
+	"authors": [
+		"OctoMiku01"
+	],
+	"contact": {
+		"homepage": "https://github.com/OctoMiku01/Happy-Ghast-Speed",
+		"sources": "https://github.com/OctoMiku01/Happy-Ghast-Speed",
+		"issues": "https://github.com/OctoMiku01/Happy-Ghast-Speed/issues"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"happy_ghast_speed.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=25"
+	}
+}
