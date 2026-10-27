@@ -10,8 +10,8 @@ import net.minecraft.world.entity.player.Player;
 public final class HappyGhastSpeed {
 	public static final String MOD_ID = "happy_ghast_speed";
 
-	// Vanilla is 0.05. Ridden flight speed grows with the square of this value, so 0.1 flies about four times as fast.
-	private static final double RIDDEN_SPEED = 0.1;
+	// Vanilla is 0.05. Ridden flight speed grows with the square of this value, so 0.08 flies about two and a half times as fast.
+	private static final double RIDDEN_SPEED = 0.08;
 	private static final double IDLE_SPEED = 0.03;
 
 	private static final Identifier MODIFIER_ID = Identifier.fromNamespaceAndPath(MOD_ID, "flying_speed");
