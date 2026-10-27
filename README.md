@@ -12,7 +12,7 @@ Happy Ghasts fly faster while a player rides them, and drift around slower when 
 | | Flying speed | Ridden top speed |
 |---|---|---|
 | Vanilla | 0.05 | about 3.6 blocks/s |
-| Ridden | 0.1 | about 14.4 blocks/s |
+| Ridden | 0.08 | about 9.2 blocks/s |
 | Without a rider | 0.03 | |
 
 The speed is a temporary attribute modifier that is never saved. If you remove the mod, every Happy Ghast flies at
